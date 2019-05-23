@@ -1,0 +1,35 @@
+{
+  "name": "slack-notifer",
+  "version": "0.0.1",
+  "description": "",
+  "keywords": [],
+  "author": "kimulaco",
+  "license": "MIT",
+  "homepage": "https://github.com/kimulaco/slack-notifer",
+  "bugs": "https://github.com/kimulaco/slack-notifer/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kimulaco/slack-notifer.git"
+  },
+  "main": "lib/slack-notifer.js",
+  "bin": {
+    "slack-notifer": "bin/slack-notifer.js"
+  },
+  "scripts": {
+    "lint": "eslint -c .eslintrc.js **/**.js",
+    "self-link": "npm link && npm link slack-notifer"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "commander": "^2.20.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-loader": "^2.1.2",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-node": "^9.0.1",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-standard": "^4.0.0"
+  }
+}
