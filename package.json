@@ -16,7 +16,7 @@
     "slack-notifer": "bin/slack-notifer.js"
   },
   "scripts": {
-    "lint": "eslint -c .eslintrc.js **/**.js",
+    "lint": "eslint -c .eslintrc.js lib/*.js bin/*.js",
     "self-link": "npm link && npm link slack-notifer"
   },
   "dependencies": {
