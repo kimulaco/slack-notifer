@@ -17,7 +17,7 @@ class SlackNotifer {
   }
 
   public parseParams (obj: any): string[] {
-    let params: string[] = []
+    let params: any = {}
 
     this.optionNames.forEach((optionName: string) => {
       if (optionName === 'icon') {

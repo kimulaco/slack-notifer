@@ -15,8 +15,6 @@ program
 
 let webhookUrl = program.args[0]
 
-console.log(webhookUrl)
-
 slackNotifer.notify(
   webhookUrl,
   slackNotifer.parseParams(program)
