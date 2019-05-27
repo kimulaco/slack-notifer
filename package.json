@@ -2,7 +2,9 @@
   "name": "slack-notifer",
   "version": "0.0.1",
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "slack"
+  ],
   "author": "kimulaco",
   "license": "MIT",
   "homepage": "https://github.com/kimulaco/slack-notifer",
