@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const slackNotifer = require('../lib/slack-notifer')
+const slackNotifer = require('../dist/slack-notifer')
 const pkg = require('../package')
 const program = require('commander')
 
@@ -16,7 +16,6 @@ program
 let webhookUrl = program.args[0]
 
 console.log(webhookUrl)
-console.log(slackNotifer.parseParams(program))
 
 slackNotifer.notify(
   webhookUrl,
