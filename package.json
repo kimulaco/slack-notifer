@@ -18,8 +18,7 @@
   "scripts": {
     "build": "webpack",
     "dev": "webpack -w",
-    "lint": "eslint -c .eslintrc.js src/**.ts bin/**.js",
-    "self-link": "npm link && npm link slack-notifer"
+    "lint": "eslint -c .eslintrc.js src/**.ts bin/**.js"
   },
   "dependencies": {
     "axios": "^0.18.0",
